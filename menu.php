@@ -223,6 +223,18 @@
                 <td><img src="https://www.bing.com/th?id=OIP.UfhPMpFSbzeMKClppjcl0AHaE8&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Chicken Curry">Chicken Curry</td>
                 <td>&#36;15 <button class="add-to-cart" data-name="Chicken Curry" data-price="15">Add</button></td>
             </tr>
+            <tr>
+                <td><img src="https://www.bing.com/th?id=OIP.2iWS4NJfB5y_mu30Nsq_bwHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Chicken Biryani">Chicken Biryani</td>
+                <td>&#36;12 <button class="add-to-cart" data-name="Chicken Biryani" data-price="12">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://th.bing.com/th?id=OIP.63S5dArPPRrawEUW0yGNxgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Mutton Curry">Mutton Curry</td>
+                <td>&#36;15 <button class="add-to-cart" data-name="Mutton Curry" data-price="15">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.bing.com/th?id=OIP.UfhPMpFSbzeMKClppjcl0AHaE8&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Chicken Curry">Chicken Curry</td>
+                <td>&#36;15 <button class="add-to-cart" data-name="Chicken Curry" data-price="15">Add</button></td>
+            </tr>
         </table>
     </div>
 
@@ -241,12 +253,36 @@
                 <td><img src="https://www.bing.com/th?id=OIP.B2spdrbos5c8Oq5Vuuq4BgHaLH&w=146&h=219&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Mushroom Noodles">Mushroom Noodles</td>
                 <td>&#36;12  <button class="add-to-cart" data-name="Mushroom Noodles" data-price="12">Add</button></td>
             </tr>
+            <tr>
+                <td><img src="https://th.bing.com/th?id=OSK.36ef5c22ffde4107d3a85c5dd223627b&w=176&h=176&rs=2&qlt=80&o=6&cdv=1&dpr=1.5&pid=16.1" alt="Paneer Butter Masala">Paneer Butter Masala</td>
+                <td>&#36;10 <button class="add-to-cart" data-name="Paneer Butter Masala" data-price="10">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://th.bing.com/th?id=OIP.Bmui8r3XxTzNbohdpsrioAAAAA&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Veg Biryani">Veg Biryani</td>
+                <td>&#36;8  <button class="add-to-cart" data-name="Veg Biryani" data-price="8">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.bing.com/th?id=OIP.B2spdrbos5c8Oq5Vuuq4BgHaLH&w=146&h=219&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Mushroom Noodles">Mushroom Noodles</td>
+                <td>&#36;12  <button class="add-to-cart" data-name="Mushroom Noodles" data-price="12">Add</button></td>
+            </tr>
         </table>
     </div>
 
     <div class="menu-section">
         <h3>Star Dishes</h3>
         <table>
+            <tr>
+                <td><img src="https://th.bing.com/th?id=OIP.p7Yk32-sJzmE5keNbDXcgwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Grilled Salmon">Grilled Salmon</td>
+                <td class="hi">&#36;20  <button class="add-to-cart" data-name="Grilled Salmon" data-price="20">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.bing.com/th?id=OIP.vNwEV9yK5j7JdifFbm3LGQHaE8&w=146&h=120&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Beef Steak">Beef Steak</td>
+                <td>&#36;25   <button class="add-to-cart" data-name="Beef Steak" data-price="25">Add</button></td>
+            </tr>
+            <tr>
+                <td><img src="https://th.bing.com/th?id=OIP.1zlnwBOKe447oocyUy2qagHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Kunafa">Kunafa</td>
+                <td>&#36;26  <button class="add-to-cart" data-name="Kunafa" data-price="26">Add</button></td>
+            </tr>
             <tr>
                 <td><img src="https://th.bing.com/th?id=OIP.p7Yk32-sJzmE5keNbDXcgwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Grilled Salmon">Grilled Salmon</td>
                 <td class="hi">&#36;20  <button class="add-to-cart" data-name="Grilled Salmon" data-price="20">Add</button></td>
