@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
      <style>
-        :root {
+ :root {
             --red: crimson;
             --green: #53BF9D;
             --yellow: #FFC54D;
@@ -40,7 +40,7 @@
         header a {
             text-decoration: none;
             color: var(--yellow);
-            min-width: 120px; 
+            min-width: 120px;
         }
 
         #logo {
@@ -70,7 +70,7 @@
         }
 
         header h2 i, nav a i {
-            margin-right: .5em; 
+            margin-right: .5em;
         }
 
         .maintext {
@@ -79,20 +79,17 @@
             height: 60vh;
             justify-content: center;
             padding: 2em;
-            /* text-align: center; */
             animation: fadeInUp 2s ease-out;
         }
 
         .tagline1 {
             color: var(--red);
-            /* font-size: 0.3em; */
             font-weight: bolder;
             animation: bounceIn 2.5s ease-in-out;
         }
 
         .tagline2 {
             color: var(--yellow);
-            /* font-size: 1em; */
             animation: fadeIn 3s ease-in;
         }
 
@@ -160,17 +157,36 @@
 
         /* Responsiveness */
         @media (max-width: 768px) {
-            .tagline1 {
-                font-size: 1.8em;
+            nav {
+                display: none;
+                width: 100%;
             }
-            .tagline2 {
-                font-size: 1.2em;
+            header {
+                justify-content: space-between;
+            }
+            .hamburger {
+                display: block;
+                cursor: pointer;
+                font-size: 2em;
+                color: var(--yellow);
+            }
+            .menu-active nav {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 1em;
             }
             nav a {
-                font-size: 1em;
+                color: var(--white);
+                padding: 1em 0;
+                text-align: center;
             }
-            .maintext button {
-                width: 50vw;
+            nav a:hover {
+                background-color: var(--green);
             }
         }
 
