@@ -207,14 +207,17 @@
 <body>
     <div class="landing">
         <header>
-           <a href="header.htmls" id="logo"><h2><i class="fa-solid fa-bowl-rice"></i>Steak Cuisine</h2></a>
-           <nav>
-                <a href="header.php"><i class="fa-solid fa-home"></i>Home</a>
-                <a href="menu.php"><i class="fa-solid fa-bars"></i>Menu</a>
-                <a href="location.php"><i class="fa-solid fa-location-pin"></i>Locations</a>
-                <a href="contact.php"><i class="fa-solid fa-address-book"></i>Contact Us</a>
-                <a href="cart.php"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
-           </nav>
+            <a href="header.htmls" id="logo"><h2><i class="fa-solid fa-bowl-rice"></i>Steak Cuisine</h2></a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <a href="index.html"><i class="fa-solid fa-home"></i>Home</a>
+                <a href="menu.html"><i class="fa-solid fa-bars"></i>Menu</a>
+                <a href="location.html"><i class="fa-solid fa-location-pin"></i>Locations</a>
+                <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact Us</a>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+            </nav>
         </header>
         <div class="maintext">
             <div class="tagline1">Finest Treat for Your Taste Buds</div>
@@ -223,8 +226,13 @@
                 <br>Come And Enjoy The Day with us
             </div>
             <div class="callus">Call us @+91 1234567890</div>
-            <button class="hello"><a href="menu.php">Order Online</a></button>
+            <button class="hello"><a href="menu.html">Order Online</a></button>
         </div>
     </div>
+
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-active');
+        }
+    </script>
 </body>
-</html>
